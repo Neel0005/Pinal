@@ -242,7 +242,7 @@ function App() {
                   transition={{ duration: 0.6, delay: 0.2 }}
                   style={{ display: 'flex', justifyContent: 'center', gap: '2.5rem', margin: '0 auto 5rem auto', flexWrap: 'wrap', maxWidth: '800px' }}
                 >
-                  {['Photoshop', 'Illustrator', 'GenAI Pipeline', 'After Effects'].map((tool) => (
+                  {['Photoshop', 'Illustrator', 'GenAI','Canva', 'After Effects'].map((tool) => (
                     <span key={tool} className="chip purple" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '10px 24px', fontSize: '0.95rem' }}>
                       ● {tool}
                     </span>
