@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Soft background gradient circle -->
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd6ee" />
+      <stop offset="100%" stop-color="#eedcff" />
+    </linearGradient>
+    <linearGradient id="controller-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e040a0" />
+      <stop offset="100%" stop-color="#7c52aa" />
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#e040a0" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <circle cx="256" cy="256" r="240" fill="url(#bg-grad)" />
+
+  <!-- A stunning game controller vector shape -->
+  <g filter="url(#glow)">
+    <path d="M376 176H136c-48.6 0-88 39.4-88 88v16c0 48.6 39.4 88 88 88h12c14.6 0 28.1-7.2 36.3-19.2l18.4-27.6c11-16.5 29.8-26.4 49.7-26.4h8.8c19.9 0 38.7 9.9 49.7 26.4l18.4 27.6c8.2 12 21.7 19.2 36.3 19.2h12c48.6 0 88-39.4 88-88v-16c0-48.6-39.4-88-88-88z" fill="url(#controller-grad)" />
+    
+    <!-- D-pad (Plus sign) -->
+    <path d="M144 232h-16v16c0 4.4-3.6 8-8 8s-8-3.6-8-8v-16H96c-4.4 0-8-3.6-8-8s3.6-8 8-8h16v-16c0-4.4 3.6-8 8-8s8 3.6 8 8v16h16c4.4 0 8 3.6 8 8s-3.6 8-8 8z" fill="#ffffff" opacity="0.9" />
+    
+    <!-- Action Buttons -->
+    <circle cx="396" cy="228" r="10" fill="#ffffff" opacity="0.9" />
+    <circle cx="372" cy="252" r="10" fill="#ffffff" opacity="0.9" />
+    <circle cx="420" cy="252" r="10" fill="#ffffff" opacity="0.9" />
+    <circle cx="396" cy="276" r="10" fill="#ffffff" opacity="0.9" />
+
+    <!-- Center select/start buttons -->
+    <rect x="220" y="244" width="24" height="10" rx="5" fill="#ffffff" opacity="0.75" />
+    <rect x="268" y="244" width="24" height="10" rx="5" fill="#ffffff" opacity="0.75" />
+  </g>
+</svg>
